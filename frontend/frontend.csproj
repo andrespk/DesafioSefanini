@@ -20,6 +20,7 @@
 
 
   <ItemGroup>
+    <Folder Include="Requests\" />
     <Folder Include="Views\Customers\" />
   </ItemGroup>
 
