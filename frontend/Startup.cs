@@ -35,7 +35,7 @@ namespace frontend
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddSingleton<UserIdentityDataAccess>();
+            // services.AddSingleton<UserIdentityDataAccess>();
             services.AddIdentity<UserSys, UserRole>()
                 .AddDefaultTokenProviders()
                 .AddDefaultUI(UIFramework.Bootstrap4)

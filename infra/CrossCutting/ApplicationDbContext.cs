@@ -12,7 +12,7 @@ namespace infra.CrossCutting
         }
 
         public DbSet<UserSys> SystemUsers { get; set; }
-        public DbSet<UserRole> UsersRoles { get; set; }
+        public DbSet<UserRole> SystemRoles { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Region> Regions { get; set; }
         public DbSet<City> Cities { get; set; }
